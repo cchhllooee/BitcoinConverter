@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BitcoinConverter.Code\BitcoinConverter.Code.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BitcoinConverter.Code.dll">
+      <HintPath>Libraries\BitcoinConverter.Code.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
