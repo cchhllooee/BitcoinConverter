@@ -25,7 +25,7 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     
     - name: Generate Test Coverage Report
-        run: 
+      run: 
         ls -la
         mkdir -p BitcoinConverter.Tests/TestResults
         cd BitcoinConverter.Tests
